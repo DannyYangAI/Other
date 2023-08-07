@@ -1,0 +1,24 @@
+### DicomViewer **(IDC using)**
+
+<aside>
+💡 single-page application for view and annotation of WSI image , relies on [DICOMweb](https://www.dicomstandard.org/using/dicomweb)
+ RESTful services to search for, retrieve, and store imaging data and can thereby simply be placed in front of any DICOMweb-conformant Image.
+
+</aside>
+
+> Code                             :  https://github.com/herrmannlab/slim
+DICOMweb server        :  https://github.com/dcm4che/dcm4chee-arc-light
+Library of build viewer  :  https://github.com/herrmannlab/dicom-microscopy-viewer
+> 
+
+Example       :  [IDC子宮頸切片(SCC)](https://viewer.imaging.datacommons.cancer.gov/slim/studies/2.25.103300945865447808433981042005608465818/series/1.3.6.1.4.1.5962.99.1.1763844981.1187061097.1638146417525.2.0)
+
+Annotation  :  https://imagingdatacommons.github.io/slim/
+
+知名使用者  :  [IDC 美國醫學影像數據資料庫](https://portal.imaging.datacommons.cancer.gov/)、[TCGA 美國癌症基因圖譜](http://cancer.digitalslidearchive.net)
+
+License        :  Apache 2.0
+
+未完成         :  建嘉未上傳.dcm瀏覽
+
+範例檔案     : Drexler提供drexler_d6e8e646-cd3c02a8-c75b6c24-4e76f90b-00556b9b，已放到FTP/pathologys
