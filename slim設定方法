@@ -44,4 +44,22 @@ https://blog.csdn.net/weixin_43690623/article/details/125407024
 
 than run yarn install again
 
+craco build
+/home/danny/Slim/slim-0.14.0/node_modules/cosmiconfig/dist/Explorer.js:54
+    for await (const place of this.config.searchPlaces) {
+        ^^^^^
+
+SyntaxError: Unexpected reserved word
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/danny/Slim/slim-0.14.0/node_modules/cosmiconfig/dist/index.js:12:17)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 
