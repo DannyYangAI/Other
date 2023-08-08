@@ -22,3 +22,20 @@ License        :  Apache 2.0
 未完成         :  建嘉未上傳.dcm瀏覽
 
 範例檔案     : Drexler提供drexler_d6e8e646-cd3c02a8-c75b6c24-4e76f90b-00556b9b，已放到FTP/pathologys
+
+
+
+
+
+install yarn
+https://www.javatpoint.com/install-yarn-ubuntu
+
+run this page if  find error  of  command " yarn install" 
+
+https://blog.csdn.net/weixin_50638953/article/details/117694536
+
+
+go to slim folder :
+yarn install
+
+
