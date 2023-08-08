@@ -36,6 +36,12 @@ https://blog.csdn.net/weixin_50638953/article/details/117694536
 
 
 go to slim folder :
-yarn install
+=>yarn install
+
+there is a error about node , ignore it 
+https://blog.csdn.net/weixin_43690623/article/details/125407024
+=>yarn config set ignore-engines true
+
+than run yarn install again
 
 
