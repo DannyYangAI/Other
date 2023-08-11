@@ -62,16 +62,16 @@ error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 
     ========================docker============================================================================
-install docker and compose(step 1-11)
-https://ithelp.ithome.com.tw/articles/10239520
+1安裝docker and compose(https://ithelp.ithome.com.tw/articles/10239520 步驟 1-11)
+2check compse version:
+    docker-compose version
 
-check compse version:
-docker-compose version
+3至 slim folder:
+    sudo docker-compose up -d
+如果有error 參考這個  https://forums.docker.com/t/couldnt-connect-to-docker-daemon-at-http-docker-localhost-is-it-running/87257/3
 
-to slim folder:
-sudo docker-compose up -d
-if error check this  https://forums.docker.com/t/couldnt-connect-to-docker-daemon-at-http-docker-localhost-is-it-running/87257/3
-
+4 安裝dicomweb-client
+    pip install dicomweb-client
 
 
 
