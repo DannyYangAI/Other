@@ -61,4 +61,22 @@ SyntaxError: Unexpected reserved word
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 
-    
+    ========================docker============================================================================
+
+ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
