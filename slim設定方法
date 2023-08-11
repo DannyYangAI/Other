@@ -62,6 +62,18 @@ error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 
     ========================docker============================================================================
+install docker and compose(step 1-11)
+https://ithelp.ithome.com.tw/articles/10239520
+
+check compse version:
+docker-compose version
+
+to slim folder:
+sudo docker-compose up -d
+if error check this  https://forums.docker.com/t/couldnt-connect-to-docker-daemon-at-http-docker-localhost-is-it-running/87257/3
+
+
+
 
 ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
 
