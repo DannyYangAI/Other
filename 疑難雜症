@@ -1,2 +1,17 @@
 Ubuntu開機出現grub指令，無法正常開機
 https://juejin.cn/post/6844903934255955976
+使用Boot-Repair
+https://www.cntofu.com/book/46/ubuntu/windowsyuubuntu_shuang_xi_tong_ff0c_kai_ji_shi_zhe.md
+
+
+指令：
+(1)Grub命令列進入ubuntu
+set root=(hd0,gpt5)
+set prefix=(hd0,gpt5)/boot/grub
+insmod normal
+normal
+(2)進到ubuntu後修復開機選單
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+sudo apt-get install -y boot-repair
+boot-repair
