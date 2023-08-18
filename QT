@@ -1,3 +1,4 @@
+
 用 Qt Designer 來設計 PyQt GUI 應用程式界面 https://zhung.com.tw/article/%E7%94%A8qt-designer%E4%BE%86%E8%A8%AD%E8%A8%88pyqt-gui%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%95%8C%E9%9D%A2/
 Qt：MDI多文档界面 http://www.skcircle.com/?id=978
 PyQt examples 2022 https://github.com/pyqt/examples
@@ -24,3 +25,4 @@ https://ithelp.ithome.com.tw/articles/10306436
 
 自適應視窗? 測試
 https://blog.csdn.net/weixin_43829992/article/details/108125142?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-108125142-blog-125756632.235^v38^pc_relevant_default_base3&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+全域字型自適應? 測試https://www.cnblogs.com/zoule/p/14583000.html
