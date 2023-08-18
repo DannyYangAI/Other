@@ -3,3 +3,20 @@ Qt：MDI多文档界面 http://www.skcircle.com/?id=978
 PyQt examples 2022 https://github.com/pyqt/examples
 QT TableView - Show Icons    https://stackoverflow.com/questions/22424326/qt-tableview-show-icons
 【Day06】QTableWidget 表格 with Images 圖片 https://ithelp.ithome.com.tw/m/articles/10288707
+
+自適應字體大小
+label1->setText("Qt Label1"); 
+//set font
+QFont font = label1->font();
+font.setPointSize(72);
+font.setBold(true);
+label1->setFont(font);
+
+2在designer 的物件的 stylesheet 欄，輸入 font-size: calc(10pt + 2 * ((100vw - 320px) / 680));\n
+font 單位  pt是自適應，px是固定
+
+
+
+
+QSS ( Qt Style Sheet ) 樣式設定
+https://ithelp.ithome.com.tw/articles/10306436
