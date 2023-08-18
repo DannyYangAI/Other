@@ -89,8 +89,32 @@ dicomweb_client -vv --url http://localhost:8008/dcm4chee-arc/aets/DCM4CHEE/rs st
 2023-08-16 09:37:29,855 | ERROR    | dicomweb_client.cli                      | 500 Server Error: Internal Server Error for url: http://localhost:8008/dcm4chee-arc/aets/DCM4CHEE/rs/studies
 
 
+========================jhonny method 1================================================================================
+2022年12月07
+
+docker run --network=dcm4chee_network --privileged=true --name db  -p 5432:5432  -e POSTGRES_DB=pacsdb   -e POSTGRES_USER=pacs    -e POSTGRES_PASSWORD=pacs    -v /etc/localtime:/etc/localtime:ro  -v /etc/timezone:/etc/timezone:ro     -v /var/local/dcm4chee-arc/db:/var/lib/postgresql/data  -d dcm4che/postgres-dcm4chee:14.5-29
+
+command result:
+(SLIM_test3) danny@danny-GS65:~/slim_12/slim-0.12.0$ docker run --network=dcm4chee_network --privileged=true --name db  -p 5432:5432  -e POSTGRES_DB=pacsdb   -e POSTGRES_USER=pacs    -e POSTGRES_PASSWORD=pacs    -v /etc/localtime:/etc/localtime:ro  -v /etc/timezone:/etc/timezone:ro     -v /var/local/dcm4chee-arc/db:/var/lib/postgresql/data  -d dcm4che/postgres-dcm4chee:14.5-29
+docker: Error response from daemon: Conflict. The container name "/db" is already in use by container "89148693837e03e35e8c7dbf40fea8b6c21d3b23513031442e0ad91bcf5ba103". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+(SLIM_test3) danny@danny-GS65:~/slim_12/slim-0.12.0$ 
+(SLIM_test3) danny@danny-GS65:~/slim_12/slim-0.12.0$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+(SLIM_test3) danny@danny-GS65:~/slim_12/slim-0.12.0$ docker run --network=dcm4chee_network --privileged=true --name db001  -p 5432:5432  -e POSTGRES_DB=pacsdb   -e POSTGRES_USER=pacs    -e POSTGRES_PASSWORD=pacs    -v /etc/localtime:/etc/localtime:ro  -v /etc/timezone:/etc/timezone:ro     -v /var/local/dcm4chee-arc/db:/var/lib/postgresql/data  -d dcm4che/postgres-dcm4chee:14.5-29
+16c22778e6fc1ad5c27ba20ee570425b7678f4ca1cfde34507161f2edd375708
+docker: Error response from daemon: network dcm4chee_network not found.
 
 
+=====================================================
+https://blog.csdn.net/Qinyimin001/article/details/105785541
+
+slapd-dcm4chee
+postgres-dcm4chee
+dcm4chee-arc-psql
+
+
+dcm4chee开发笔记（二
 
 
 
