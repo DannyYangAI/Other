@@ -106,7 +106,18 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 docker: Error response from daemon: network dcm4chee_network not found.
 
 
+docker run --network=dcm4chee_network --privileged=true --name db001 \
+           -p 5432:5432 \
+           -e POSTGRES_DB=pacsdb \
+           -e POSTGRES_USER=pacs \
+           -e POSTGRES_PASSWORD=pacs \
+           -v /etc/localtime:/etc/localtime:ro \
+           -v /etc/timezone:/etc/timezone:ro \
+           -v /var/local/dcm4chee-arc/db:/var/lib/postgresql/data \
+           -d dcm4che/postgres-dcm4chee:14.5-29
+
 ========================jhonny 測試的方法 2================================================================================
+
 
 
 =====================================================
@@ -123,7 +134,10 @@ dcm4chee => 讀dicom
 
 
 
-
+docker start 8dfd929c6a3e    dcm4che/slapd-dcm4chee:2.6.0-26.0
+docker start 04ece7cf7dda    dcm4che/postgres-dcm4chee:14.2-26
+docker start 12217124eae4   dcm4che/dcm4chee-arc-psql:5.26.0 
+docker start 18d7a72af831   slim_12-app 
 
 
 
