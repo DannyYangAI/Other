@@ -12,11 +12,15 @@ font.setPointSize(72);
 font.setBold(true);
 label1->setFont(font);
 
-2在designer 的物件的 stylesheet 欄，輸入 font-size: calc(10pt + 2 * ((100vw - 320px) / 680));\n
+2在designer 的物件的 stylesheet 欄，輸入 font-size: calc(10pt + 2 * ((100vw - 320px) / 680));\n      https://juejin.cn/s/qt%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F%E5%A6%82%E4%BD%95%E8%87%AA%E9%80%82%E5%BA%94
+測試沒問題但看不出差異，後續再測
 font 單位  pt是自適應，px是固定
-
-
+使用QFont的setPointSize，此时字体的大小会跟随DPI改变而改变。 使用QFont的setPixelSize，此时字体的大小不会随DPI的改变而发生变化。
 
 
 QSS ( Qt Style Sheet ) 樣式設定
 https://ithelp.ithome.com.tw/articles/10306436
+
+
+自適應視窗? 測試
+https://blog.csdn.net/weixin_43829992/article/details/108125142?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-108125142-blog-125756632.235^v38^pc_relevant_default_base3&spm=1001.2101.3001.4242.1&utm_relevant_index=3
