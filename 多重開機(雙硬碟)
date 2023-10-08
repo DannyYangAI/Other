@@ -1,0 +1,72 @@
+1. 制作 安裝碟  : 多重安裝碟ventoy-1.0.96-windows 
+2. 安裝碟 開機(記得關BIOS安全啟動)，選win 11 iso檔，
+3. 安裝選項中，雙顆硬磁全清空(空間未配置) ，再選一顆硬碟裝win11
+4. 裝好win11後，再用安裝碟裝ubuntu
+5. 之後開機時，立刻按「F11」會進入bios的多重開機選單，可以使用雙系統了
+註:各廠牌的bios的多重開機選單指令不一樣，微星筆電的是「F11],參考下網址
+
+https://adersaytech.com/tutorial/windowsos-tutorial/win10-win11-dual-os.html
+
+
+
+廠牌
+
+桌上型電腦
+
+筆記型電腦
+---------------------
+
+Asus 華碩
+
+F8
+
+Esc
+
+Acer 宏碁
+
+F12
+
+F12
+
+HP 惠普
+
+F9
+
+F9
+
+Dell 戴爾
+
+F12
+
+F12
+
+Lenovo 聯想
+
+F12
+
+F12
+
+MSI 微星
+
+F11
+
+F11
+
+Gigabyte 技嘉
+
+F12
+
+F12
+
+VAIO
+
+N/A
+
+F3 + 開機鍵
+
+Nexstgo
+
+N/A
+
+F2
+
