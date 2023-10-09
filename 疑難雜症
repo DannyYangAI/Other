@@ -19,3 +19,7 @@ boot-repair
 (3)如果windows 不在開機選中，於unbuntu下此指令
 直接在終端機執行(Ubuntu)：
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+
+
+https://blog.csdn.net/jst100/article/details/125783925
