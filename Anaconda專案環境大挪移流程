@@ -1,0 +1,10 @@
+1.新電腦安裝最新的anaconda和vscode
+2.舊電腦anaconda 的env下全部的資料夾複製到新電腦的anaconda 的env下
+3.最新的vscode python 套件已不支援python 3.7以下的版本，因現有專案大多為3.6，不能使用vscode debug, 所以需灌特殊python 套件以使用3.6環境
+參考下面網頁：https://blog.csdn.net/jst100/article/details/125783925
+若直接下載特殊套件可以到這連結
+https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-python/vsextensions/python/2022.6.0/vspackage
+4.vscode 的左側選套件安裝，右上角三點，import vsix...
+完成專案轉移
+
+
