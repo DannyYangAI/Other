@@ -8,3 +8,4 @@ https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-python/v
 完成專案轉移
 
 
+補充：執行專案時，遇到Pypqt5找到舊路徑(舊電腦使用者名稱不一樣)的錯誤，重新pip install pyqt5就解決了
