@@ -10,3 +10,7 @@ https://reurl.cc/V4WDMY
 
 
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=ID編號' -O 下載後的檔名
+
+
+離線下載
+https://medium.com/tiffany-blog/python-ubuntu%E9%9B%A2%E7%B7%9A%E5%AE%89%E8%A3%9Dpython-package-cb25d27e6bb4
