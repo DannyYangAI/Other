@@ -28,6 +28,10 @@ ubnuntu 下使用pyinstall 產生linux 執行檔方法
 https://blog.csdn.net/BAIFOL/article/details/122636991
 
 
+似乎可取代 pyinstall的執行生產生方法 - Nuitka
+https://blog.csdn.net/zong596568821xp/article/details/121558036
+
+
 高榮 putty + WinSCP
 putty 登入 SSH， WinSCP上傳檔案到伺服器
 
