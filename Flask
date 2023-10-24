@@ -6,14 +6,18 @@ flask EXAMPLE: [Day 29] 使用 Python Flask 架設 API 吧！
 https://ithelp.ithome.com.tw/articles/10280422
 
 
-https://reurl.cc/V4WDMY
 
 
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=ID編號' -O 下載後的檔名
+
 
 
 離線下載
 https://medium.com/tiffany-blog/python-ubuntu%E9%9B%A2%E7%B7%9A%E5%AE%89%E8%A3%9Dpython-package-cb25d27e6bb4
+EX
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=ID編號' -O 下載後的檔名
+https://reurl.cc/V4WDMY
+
+上面的方法會下載失敗但看不出來需注意
 
 
 
@@ -22,3 +26,8 @@ https://medium.com/tiffany-blog/python-ubuntu%E9%9B%A2%E7%B7%9A%E5%AE%89%E8%A3%9
 
 ubnuntu 下使用pyinstall 產生linux 執行檔方法
 https://blog.csdn.net/BAIFOL/article/details/122636991
+
+
+高榮 putty + WinSCP
+putty 登入 SSH， WinSCP上傳檔案到伺服器
+
