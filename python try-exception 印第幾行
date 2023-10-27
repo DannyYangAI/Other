@@ -1,0 +1,7 @@
+
+import traceback
+
+try:
+    raise ValueError('invalid value')
+except ValueError as e:
+    print(traceback.format_exc())
