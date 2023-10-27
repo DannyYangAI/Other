@@ -3,5 +3,5 @@ import traceback
 
 try:
     raise ValueError('invalid value')
-except ValueError as e:
+except :
     print(traceback.format_exc())
