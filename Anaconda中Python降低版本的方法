@@ -1,0 +1,5 @@
+Anaconda中Python降低版本的方法
+1. 執行python，查看目前版本號。
+2. 在目標環境中（例如base）執行conda search --full --name python，查看可選擇的Python版本。
+3. 執行conda install python=你需要的版本號碼。
+4. 等待一會，出現提示是否降級，輸入「y」執行。
