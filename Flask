@@ -55,3 +55,7 @@ http://shorturl.at/mnKR6
 https://drive.google.com/file/d/1gbeq3FFevil5STjOwKutG6tVJWn0CYgp/view
 53075
 
+新阪FL 
+成功大樓 director     192.168.1.194 53075
+高醫 fx envoy start -n "envoy_two" --disable-tls --envoy-config-path "envoy_config_two.yaml" -dh 221.120.82.73 -dp 2222
+
