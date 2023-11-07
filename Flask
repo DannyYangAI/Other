@@ -58,4 +58,43 @@ https://drive.google.com/file/d/1gbeq3FFevil5STjOwKutG6tVJWn0CYgp/view
 新阪FL 
 成功大樓 director     192.168.1.194 53075
 高醫 fx envoy start -n "envoy_two" --disable-tls --envoy-config-path "envoy_config_two.yaml" -dh 221.120.82.73 -dp 2222
+==============================================================================================================================
+[director]電腦網路設定
+
+director \plan\ plan.yaml
+221.120.82.73
+auto
+
+
+director_config.yaml
+host: 192.168.1.194
+port : 53075
+
+
+
+run.py ' tnsorflow_MNIST.py
+
+221.120.82.73
+2222
+
+
+
+-----------------------------------------------------
+
+[workspace] 電腦網路設定
+workspace \plan\ plan.yaml
+221.120.82.73
+auto
+
+
+run.py ' tnsorflow_MNIST.py
+221.120.82.73
+2222
+
+------------------------------------------------------
+
+
+envoy 電腦網路設定
+ fx envoy start -n "envoy_two" --disable-tls --envoy-config-path "envoy_config_two.yaml" -dh 221.120.82.73 -dp 2222
+
 
