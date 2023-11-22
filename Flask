@@ -6,12 +6,7 @@ flask EXAMPLE: [Day 29] 使用 Python Flask 架設 API 吧！
 https://ithelp.ithome.com.tw/articles/10280422
 
 
-
-
-
-
-
-離線下載
+離線下載安裝包
 https://medium.com/tiffany-blog/python-ubuntu%E9%9B%A2%E7%B7%9A%E5%AE%89%E8%A3%9Dpython-package-cb25d27e6bb4
 EX
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=ID編號' -O 下載後的檔名
@@ -96,5 +91,44 @@ run.py ' tnsorflow_MNIST.py
 
 envoy 電腦網路設定
  fx envoy start -n "envoy_two" --disable-tls --envoy-config-path "envoy_config_two.yaml" -dh 221.120.82.73 -dp 2222
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+使用Python 發post ，包含json檔格式，做為api 之用
+
+
+
+
+
+curl 指令：https://gist.github.com/humorless/b8d5061a0d8a71cea4ce978fc10bdb60
+
+
+連線方式
+POST /api/v2/structure_report/vendor_add
+
+curl 指令 Sample:
+curl --location '/api/v2/structure_report/vendor_add' \
+--header 'Content-Type: application/json' \
+--header 'X-Api-Key: qp50ZlHKdgdppqEYj7AnyWvciw8dfdsgr5gtcp9aJvhAgMWTB5TBQ7DzLv0wCl \
+
+--header  => request 的 header 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
