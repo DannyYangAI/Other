@@ -32,3 +32,5 @@ ApiKey = 'XVIqlAz1wUAQw2BiC3b47pAsd9S4uo0BewakwXxAKOKKbMnWOYE4QCOOCBrxfM1C'
 headers = {'Content-Type': 'application/json', 'X-Api-Key': ApiKey} 
 r = requests.post('http://172.18.0.60:5001/kmedical/api/v2/structure_report/vendor_add', headers=headers , verify = False, json = DicJson)
 print('------------------------XXXXXXXWERDWDGGEDDDDXXX-----------------')
+
+1036bcc0-ec25a380-1bfa79ec-22b65c4e-faf0968a
