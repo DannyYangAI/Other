@@ -23,3 +23,12 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
 https://blog.csdn.net/jst100/article/details/125783925
+
+
+with open('success_data.json') as f:
+    DicJson = f.read()
+    #print(DicJson)
+ApiKey = 'XVIqlAz1wUAQw2BiC3b47pAsd9S4uo0BewakwXxAKOKKbMnWOYE4QCOOCBrxfM1C'
+headers = {'Content-Type': 'application/json', 'X-Api-Key': ApiKey} 
+r = requests.post('http://172.18.0.60:5001/kmedical/api/v2/structure_report/vendor_add', headers=headers , verify = False, json = DicJson)
+print('------------------------XXXXXXXWERDWDGGEDDDDXXX-----------------')
