@@ -34,3 +34,11 @@ r = requests.post('http://172.18.0.60:5001/kmedical/api/v2/structure_report/vend
 print('------------------------XXXXXXXWERDWDGGEDDDDXXX-----------------')
 
 1036bcc0-ec25a380-1bfa79ec-22b65c4e-faf0968a
+
+
+
+Pyside 無法顯示jpeg 圖檔
+解決方法：https://blog.csdn.net/Kyrotex/article/details/119153266
+實際做法在main 加入這行     mainapp.addLibraryPath("plugins") #Pyside 無法顯示jpg  -- 載入欠缺函數
+然後將pyside 的plugins資料夾複製到專案下
+
