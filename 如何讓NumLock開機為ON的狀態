@@ -1,0 +1,47 @@
+如何讓NumLock開機為ON的狀態
+
+有三種方法
+
+1、開機後在登入使用者畫面 先不登入，這時NumLock燈沒亮，按一下讓他變亮後按右下的關機鍵，選擇重新開機。這樣以後NumLock就會一直亮了
+
+2、在開機後進入BIOS找一下NUMBER lock 選擇變ON這樣就可以囉
+
+3、執行 regedit在 HKEY_USERS → ।DEFAULT → Cortrol Panel → Keyborad 內修改 InitialKeyboardIndicators將 0 改為 2以後開機 Num Lock鍵就是亮的
+
+4.將下面的文字複製起來，貼到記事本，並將它另存新檔為一個 reg 檔，並執行它即可。例如另存檔名為：NumLock.reg其中數值的部分，若改為 2 則恆亮，改為 0 則恆不亮。
+
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USERControl PanelKeyboard]"InitialKeyboardIndicators"="2"
+[HKEY_USERS.DEFAULTControl PanelKeyboard]"InitialKeyboardIndicators"="2"
+
+從此開機時候win10都會默認開啟小鍵盤鎖啦！
+當然這裡如果修改成別的數字也有特殊的作用。下面列舉一下！
+InitialKeyboardIndicators項數值含義
+
+0默認關閉全部鎖定
+
+1默認只開啟大小寫鎖定Caps Lock
+
+2默認只開啟數字鎖定Num Lock
+
+3默認同時開啟大寫和數字鎖定
+
+4默認只開啟滾動鎖定ScrollLock
+
+5默認同時開啟大寫和滾動鎖定
+
+6默認同時開啟數字和滾動鎖定
+
+7默認開啟全部鎖定
+
+如果想恢復到原樣，只需要將你改成的數字改成2147483648即可。
+
+不知為何Win10開機預設都沒有啟用數字鍵，變成每次開機都要先按一下NumLock感覺有點麻煩，今天終於受不了找了兩個方法解決。
+
+方法如下：
+修改註冊檔
+Win+R輸入regedit開啟登陸編輯器
+找到\HKEY_USERS\.DEFAULT\Control Panel\Keyboard
+將InitialKeyboardIndicators修改為80000002
+重開機即可。
+重新開機後再登入畫面先開啟NumLock，不登入直接在重開機一次即可。
