@@ -1,0 +1,11 @@
+pip install pymatreader
+
+
+from pymatreader import read_mat
+
+data = read_mat('fNIRS_04.mat')
+print(data)
+
+f = open('test.txt', 'w')
+f.write(str(data))
+f.close()
