@@ -3,10 +3,11 @@
 有三種方法
 1 執行 regedit在 HKEY_USERS → ।DEFAULT → Cortrol Panel → Keyborad 內修改 InitialKeyboardIndicators將 0 改為 2以後開機 Num Lock鍵就是亮的
 2 若windows使用中，誤觸NumLock鍵又重開機導致上述第一點失效，解法
-  => NumLock燈沒亮，按一下讓他變亮後，按右下的關機鍵，選擇重新開機。這樣在任何情況下輸入文字，NumLock預設就是亮了
+  => NumLock燈沒亮，按一下讓他變亮後，重新開機。這樣在任何情況下輸入文字，NumLock預設就是亮了
 
 
 二、使NumLock再也不能使用，無法切到方向鍵狀態
+
 第一點會有一個問題，就是不小心誤觸到NumLock鍵，就會切到方向鍵狀態，實際情況很常發生
 因此第一點設定完將InitialKeyboardIndicators後，確認狀態為數字輸入，就將NumLock鍵Disable掉
 ==>鎖死鍵盤右側數字鍵永遠是數字:
