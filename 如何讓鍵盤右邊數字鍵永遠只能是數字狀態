@@ -1,4 +1,4 @@
-如何讓NumLock開機為ON的狀態
+一、讓NumLock開機為ON的狀態(只能解決一半，重點是第二點請看文件最底部說明)
 
 有三種方法
 
@@ -45,3 +45,18 @@ Win+R輸入regedit開啟登陸編輯器
 將InitialKeyboardIndicators修改為80000002
 重開機即可。
 重新開機後再登入畫面先開啟NumLock，不登入直接在重開機一次即可。
+
+
+二、使NumLock再也不能使用，無法切到方向鍵狀態
+第一點會有一個問題，就是不小心誤觸到NumLock鍵，就會切到方向鍵狀態，實際情況很常發生
+因此第一點設定完將InitialKeyboardIndicators後，確認狀態為數字輸入，就將NumLock鍵Disable掉
+==>鎖死鍵盤右側數字鍵永遠是數字:
+使用工具SharpKeys，將num key 關閉，存入register ，NumLock鍵永遠不會切換
+
+
+
+
+
+
+
+
