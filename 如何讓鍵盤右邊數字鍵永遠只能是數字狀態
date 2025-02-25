@@ -13,6 +13,8 @@
 ==>鎖死鍵盤右側數字鍵永遠是數字:
 使用工具SharpKeys，將num key 關閉，存入register ，NumLock鍵永遠不會切換
 
+補充：羅技MX keys 鍵盤的options+ 軟體就可以把numlockkey 關了....
+
 
 
 
